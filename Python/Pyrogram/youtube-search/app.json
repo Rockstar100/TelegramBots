@@ -1,0 +1,31 @@
+{
+    "name": "YouTube-Search-Bot",
+    "logo": "https://telegra.ph//file/025337643b20e45224fd1.jpg",
+    "keywords": [
+        "pyrogram\ntgcrypto\nrequests\nytthumb\nyoutube-search-python"
+    ],
+    "repository": "https://github.com/DX-Bots/YouTube-Search-Bot",
+    "website": "https://github.com/DX-Bots/YouTube-Search-Bot",
+    "success_url": "https://t.me/TeleRoidGroup",
+    "env": {
+        "API_HASH": {
+            "description": "Your API Hash from my.telegram.org",
+            "required": "True"
+        },
+        "API_ID": {
+            "description": "Your API ID from my.telegram.org",
+            "required": "True"
+        },
+        "BOT_TOKEN": {
+            "description": "Your bot token from @BotFather",
+            "required": "True"
+        }
+    },
+    "stack": "heroku-20",
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
